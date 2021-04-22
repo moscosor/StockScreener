@@ -1,7 +1,7 @@
 # Stock Screener
 
 ###### *Before trying to run this project make sure your operating system has Node.js and npm installed
-###### _requires an API key from the TwelveData API
+###### _requires an API key from the TwelveData API set in an .env file_
 
 ## _How to Run This Project Locally:_
 1. Download source folder to desktop
