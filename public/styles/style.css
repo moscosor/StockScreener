@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+}
+
+.title{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    margin: 10px 0px 20px 0px;
+}
+
+.backArrow{
+    color: white;
+    margin: 15px 0px 0px 15px;
+    font-size: 2.3rem !important;
+}
+
+.questionContainer{
+    margin: 50px auto;
+    width: 75%;
+    display: block;
+    text-align: center;
+}
+
+.questionText {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 150;
+    font-size: 1.1rem; 
+}
+
+.loading {
+    text-align: center;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 20px 0px;
+}
+
+.stockTile{
+    border: 1px solid white;
+    min-width: 125px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 150;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    padding: 10px;
+    transition: .2s all;
+    margin: 15px;
+}
+
+.stockTile:hover {
+    color: white;
+    background: green;
+    pointer-events: painted;
+}
+
+.stockListContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 85%;
+}
+
+a { 
+    color: inherit; 
+    text-decoration: inherit;
+} 
+
+.stockInfoTile{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.stockInfoTile > p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    margin: 5px 0px;
+}
+
+.littleTitle {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 20px 0px;
+}
+
+#chart{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    width: 1000px;
+    margin: 20px auto;
+    border: 1px solid white;
+}
+
+#timeFrame {
+    color: white;
+    background: black;
+}
+
+.labelStyle{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.chartContainer{
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+.strategyTable {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 700px;
+    margin: 0px auto 25px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.strategyRow {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 150;
+    font-size: 1rem;
+    /* border: 1px solid white; */
+    border-radius: 10px;
+    width: 99%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4px 0px;
+}
+
+.strategyTitle {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 150;
+    font-size: 1rem;
+    /* border: 1px solid white; */
+    border-radius: 10px;
+    width: 99%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tableCell {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.strategyRow:hover {
+    background: white;
+    color: black !important;
+}
+.tooltipTextContainer{
+    font-size: 12px;
+    width: 300px;
+}
+
+.tooltipTextTitle {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.falseOrNegative {
+    color: red;
+}
+
+.trueOrPositive{
+    color: green;
+}
+.infoWrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
